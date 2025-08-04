@@ -403,8 +403,8 @@ export default function Portfolio() {
             <Card className="bg-white border-2 border-gray-100">
               <CardContent className="p-8">
                 <div className="flex items-start justify-between">
-                  <div className="flex items-center">
-                    <div className="w-16 h-16 border-2 border-red-500 rounded-lg flex items-center justify-center mr-6">
+                  <div className="flex flex-col sm:flex-row items-start sm:items-center">
+                    <div className="w-16 h-16 border-2 border-red-500 rounded-lg flex items-center justify-center mr-0 sm:mr-6 mb-4 sm:mb-0">
                       <GraduationCap className="text-red-500" size={32} />
                     </div>
                     <div className="flex-1">
@@ -412,7 +412,7 @@ export default function Portfolio() {
                         <h3 className="text-xl font-semibold text-black">Bachillerato de Ciencias y Tecnología</h3>
                         <Badge className="bg-green-500 text-white">Finalizado</Badge>
                       </div>
-                      <div className="flex items-center gap-4 text-gray-600 text-sm mb-4">
+                      <div className="flex items-center gap-4 text-gray-600 text-sm mb-4 flex-wrap">
                         <span className="flex items-center">
                           <GraduationCap size={16} className="mr-1" />
                           Educación Secundaria
@@ -441,8 +441,8 @@ export default function Portfolio() {
             <Card className="bg-white border-2 border-gray-100">
               <CardContent className="p-8">
                 <div className="flex items-start justify-between">
-                  <div className="flex items-center">
-                    <div className="w-16 h-16 border-2 border-red-500 rounded-lg flex items-center justify-center mr-6">
+                  <div className="flex flex-col sm:flex-row items-start sm:items-center">
+                    <div className="w-16 h-16 border-2 border-red-500 rounded-lg flex items-center justify-center mr-0 sm:mr-6 mb-4 sm:mb-0">
                       <GraduationCap className="text-red-500" size={32} />
                     </div>
                     <div className="flex-1">
@@ -450,7 +450,7 @@ export default function Portfolio() {
                         <h3 className="text-xl font-semibold text-black">Certificación de Inglés</h3>
                         <Badge className="bg-green-500 text-white">Finalizado</Badge>
                       </div>
-                      <div className="flex items-center gap-4 text-gray-600 text-sm mb-4">
+                      <div className="flex items-center gap-4 text-gray-600 text-sm mb-4 flex-wrap">
                         <span className="flex items-center">
                           <GraduationCap size={16} className="mr-1" />
                           TOEIC 810 puntos (Nivel B2)
