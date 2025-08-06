@@ -366,9 +366,9 @@ export default function Portfolio() {
                       <GraduationCap className="text-red-500" size={32} />
                     </div>
                     <div className="flex-1">
-                      <div className="flex items-center gap-4 mb-2">
+                      <div className="flex flex-col sm:flex-row sm:items-center sm:gap-4 mb-2">
                         <h3 className="text-xl font-semibold text-black">Diseño y Desarrollo de Videojuegos</h3>
-                        <Badge className="bg-orange-500 text-white">En proceso</Badge>
+                        <Badge className="bg-green-500 text-white sm:mt-0 mt-2 w-fit">En proceso</Badge>
                       </div>
                       <div className="flex items-center gap-4 text-gray-600 text-sm mb-4 flex-wrap">
                         <span className="flex items-center">
@@ -390,7 +390,7 @@ export default function Portfolio() {
                     </div>
                   </div>
                   <div className="text-right">
-                    <div className="flex items-center text-green-500 font-semibold">
+                    <div className="flex sm:hidden items-center text-green-500 font-semibold mt-4">
                       <Star size={16} className="mr-1" />
                       7.71/10
                     </div>
