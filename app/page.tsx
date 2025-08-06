@@ -385,15 +385,20 @@ export default function Portfolio() {
                         </span>
                       </div>
                       <p className="text-gray-700">
-                        Formación integral en desarrollo de videojuegos, cubriendo desde programación y diseño hasta gestión de proyectos y experiencia de usuario. Pendiente de TFG y prácticas.
+                        Formación en diseño y desarrollo de videojuegos, cubriendo desde programación y diseño hasta gestión de proyectos y experiencia de usuario. Pendiente de TFG y prácticas.
                       </p>
+                      {/* Nota para móvil */}
+                      <div className="flex sm:hidden items-center text-green-500 font-semibold mt-4">
+                        <Star size={16} className="mr-1" />
+                        7.71/10
+                      </div>
                     </div>
                   </div>
-                  <div className="text-right">
-                    <div className="flex sm:hidden items-center text-green-500 font-semibold mt-4">
-                      <Star size={16} className="mr-1" />
-                      7.71/10
-                    </div>
+
+                  {/* Nota solo para escritorio */}
+                  <div className="hidden sm:flex items-center text-green-500 font-semibold ml-4">
+                    <Star size={16} className="mr-1" />
+                    7.71/10
                   </div>
                 </div>
               </CardContent>
