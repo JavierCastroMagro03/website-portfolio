@@ -368,7 +368,7 @@ export default function Portfolio() {
                     <div className="flex-1">
                       <div className="flex flex-col sm:flex-row sm:items-center sm:gap-4 mb-2">
                         <h3 className="text-xl font-semibold text-black">Diseño y Desarrollo de Videojuegos</h3>
-                        <Badge className="bg-green-500 text-white sm:mt-0 mt-2 w-fit">En proceso</Badge>
+                        <Badge className="bg-orange-500 text-white sm:mt-0 mt-2 w-fit">En proceso</Badge>
                       </div>
                       <div className="flex items-center gap-4 text-gray-600 text-sm mb-4 flex-wrap">
                         <span className="flex items-center">
@@ -413,9 +413,9 @@ export default function Portfolio() {
                       <GraduationCap className="text-red-500" size={32} />
                     </div>
                     <div className="flex-1">
-                      <div className="flex items-center gap-4 mb-2">
+                      <div className="flex flex-col sm:flex-row sm:items-center sm:gap-4 mb-2">
                         <h3 className="text-xl font-semibold text-black">Bachillerato de Ciencias y Tecnología</h3>
-                        <Badge className="bg-green-500 text-white">Finalizado</Badge>
+                        <Badge className="bg-green-500 text-white sm:mt-0 mt-2 w-fit">Finalizado</Badge>
                       </div>
                       <div className="flex items-center gap-4 text-gray-600 text-sm mb-4 flex-wrap">
                         <span className="flex items-center">
@@ -430,13 +430,18 @@ export default function Portfolio() {
                       <p className="text-gray-700">
                         Base sólida en ciencias y tecnología que complementa mi formación en desarrollo de videojuegos.
                       </p>
+                      {/* Nota para móvil */}
+                      <div className="flex sm:hidden items-center text-green-500 font-semibold mt-4">
+                        <Star size={16} className="mr-1" />
+                        8.94/10
+                      </div>
                     </div>
                   </div>
-                  <div className="text-right">
-                    <div className="flex items-center text-green-500 font-semibold">
-                      <Star size={16} className="mr-1" />
-                      8.94/10
-                    </div>
+
+                  {/* Nota solo para escritorio */}
+                  <div className="hidden sm:flex items-center text-green-500 font-semibold ml-4">
+                    <Star size={16} className="mr-1" />
+                    8.94/10
                   </div>
                 </div>
               </CardContent>
@@ -451,9 +456,9 @@ export default function Portfolio() {
                       <GraduationCap className="text-red-500" size={32} />
                     </div>
                     <div className="flex-1">
-                      <div className="flex items-center gap-4 mb-2">
+                      <div className="flex flex-col sm:flex-row sm:items-center sm:gap-4 mb-2">
                         <h3 className="text-xl font-semibold text-black">Certificación de Inglés</h3>
-                        <Badge className="bg-green-500 text-white">Finalizado</Badge>
+                        <Badge className="bg-green-500 text-white sm:mt-0 mt-2 w-fit">Finalizado</Badge>
                       </div>
                       <div className="flex items-center gap-4 text-gray-600 text-sm mb-4 flex-wrap">
                         <span className="flex items-center">
@@ -464,13 +469,18 @@ export default function Portfolio() {
                       <p className="text-gray-700">
                         Certificación oficial que demuestra competencia en inglés para el ámbito profesional y académico internacional.
                       </p>
+                      {/* Nota para móvil */}
+                      <div className="flex sm:hidden items-center text-green-500 font-semibold mt-4">
+                        <Star size={16} className="mr-1" />
+                        810 pts
+                      </div>
                     </div>
                   </div>
-                  <div className="text-right">
-                    <div className="flex items-center text-green-500 font-semibold">
-                      <Star size={16} className="mr-1" />
-                      810 pts
-                    </div>
+
+                  {/* Nota solo para escritorio */}
+                  <div className="hidden sm:flex items-center text-green-500 font-semibold ml-4">
+                    <Star size={16} className="mr-1" />
+                    810 pts
                   </div>
                 </div>
               </CardContent>
