@@ -548,8 +548,16 @@ export default function Portfolio() {
                   <Monitor className="text-red-500" size={32} />
                 </div>
                 <h3 className="text-black text-lg font-semibold mb-2">Montaje de ordenadores</h3>
-                <p className="text-gray-600 text-sm mb-4">Mastermind</p>
-                <p className="text-gray-500 text-xs mb-4">2025</p>
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
+                <div className="flex items-center text-gray-600 text-sm">
+                  <GraduationCap className="w-4 h-4 mr-1 text-gray-600" />
+                  Mastermind
+                </div>
+                <div className="flex items-center text-gray-600 text-xs">
+                  <Calendar className="w-4 h-4 mr-1 text-gray-600" />
+                  2025
+                </div>
+                </div>
                 <Badge className="bg-green-500 text-white mb-4">Finalizado</Badge>
                 <div>
                   <a 
@@ -582,8 +590,16 @@ export default function Portfolio() {
                   <Monitor className="text-red-500" size={32} />
                 </div>
                 <h3 className="text-black text-lg font-semibold mb-2">Historia y funcionamiento de la Tarjeta Gráfica</h3>
-                <p className="text-gray-600 text-sm mb-4">Mastermind</p>
-                <p className="text-gray-500 text-xs mb-4">2025</p>
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
+                <div className="flex items-center text-gray-600 text-sm">
+                  <GraduationCap className="w-4 h-4 mr-1 text-gray-600" />
+                  Mastermind
+                </div>
+                <div className="flex items-center text-gray-600 text-xs">
+                  <Calendar className="w-4 h-4 mr-1 text-gray-600" />
+                  2025
+                </div>
+                </div>
                 <Badge className="bg-green-500 text-white mb-4">Finalizado</Badge>
                 <div>
                   <a 
@@ -616,8 +632,16 @@ export default function Portfolio() {
                   <Gamepad2 className="text-red-500" size={32} />
                 </div>
                 <h3 className="text-black text-lg font-semibold mb-2">Modding en Minecraft</h3>
-                <p className="text-gray-600 text-sm mb-4">Mastermind</p>
-                <p className="text-gray-500 text-xs mb-4">2025</p>
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
+                <div className="flex items-center text-gray-600 text-sm">
+                  <GraduationCap className="w-4 h-4 mr-1 text-gray-600" />
+                  Mastermind
+                </div>
+                <div className="flex items-center text-gray-600 text-xs">
+                  <Calendar className="w-4 h-4 mr-1 text-gray-600" />
+                  2025
+                </div>
+                </div>
                 <Badge className="bg-purple-500 text-white mb-4">En progreso</Badge>
                 <div>
                   <a 
