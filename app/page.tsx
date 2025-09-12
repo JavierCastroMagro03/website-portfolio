@@ -590,7 +590,7 @@ export default function Portfolio() {
                 </div>
                 <div>
                   <a 
-                    href="website-portfolio/public/certificados/Certificado_Historiayfuncionamientodelastarjetasgraficas"
+                    href="/website-portfolio/certificados/Certificado_Historiayfuncionamientodelastarjetasgraficas.pdf"
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-red-500 hover:text-red-600 text-sm"
