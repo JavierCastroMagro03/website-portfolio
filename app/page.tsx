@@ -506,7 +506,8 @@ export default function Portfolio() {
                   <Monitor className="text-red-500" size={32} />
                 </div>
                 <h3 className="text-black text-lg font-semibold mb-2">Eligiendo los componentes de tu nuevo PC</h3>
-                <p className="text-gray-600 text-sm mb-4">Mastermind</p>
+                <GraduationCap size={16} className="mr-1" />
+                Mastermind
                 <p className="text-gray-500 text-xs mb-4">2025</p>
                 <Badge className="bg-green-500 text-white mb-4">Finalizado</Badge>
                 <div>
