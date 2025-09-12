@@ -505,13 +505,59 @@ export default function Portfolio() {
                 <div className="flex items-center justify-center w-16 h-16 border-2 border-red-500 rounded-full mx-auto mb-4">
                   <Monitor className="text-red-500" size={32} />
                 </div>
+                <h3 className="text-black text-lg font-semibold mb-2">Eligiendo los componentes de tu nuevo PC</h3>
+                <p className="text-gray-600 text-sm mb-4">Mastermind</p>
+                <p className="text-gray-500 text-xs mb-4">2025</p>
+                <Badge className="bg-green-500 text-white mb-4">Finalizado</Badge>
+                <div>
+                  <a 
+                    href="https://mastermind.ac/curso/eligiendo-los-componentes-de-tu-nuevo-pc-2024" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-red-500 hover:text-red-600 text-sm"
+                  >
+                    <ExternalLink size={16} className="mr-2" />
+                    Ver curso
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-white border-2 border-gray-100 hover:border-red-500 transition-colors">
+              <CardContent className="p-8 text-center">
+                <div className="flex items-center justify-center w-16 h-16 border-2 border-red-500 rounded-full mx-auto mb-4">
+                  <Monitor className="text-red-500" size={32} />
+                </div>
                 <h3 className="text-black text-lg font-semibold mb-2">Montaje de ordenadores</h3>
                 <p className="text-gray-600 text-sm mb-4">Mastermind</p>
                 <p className="text-gray-500 text-xs mb-4">2025</p>
-                <Badge className="bg-purple-500 text-white mb-4">En progreso</Badge>
+                <Badge className="bg-green-500 text-white mb-4">Finalizado</Badge>
                 <div>
                   <a 
                     href="https://mastermind.ac/curso/la-biblia-del-montaje-de-pc" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-red-500 hover:text-red-600 text-sm"
+                  >
+                    <ExternalLink size={16} className="mr-2" />
+                    Ver curso
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-white border-2 border-gray-100 hover:border-red-500 transition-colors">
+              <CardContent className="p-8 text-center">
+                <div className="flex items-center justify-center w-16 h-16 border-2 border-red-500 rounded-full mx-auto mb-4">
+                  <Monitor className="text-red-500" size={32} />
+                </div>
+                <h3 className="text-black text-lg font-semibold mb-2">Historia y funcionamiento de la Tarjeta Gráfica</h3>
+                <p className="text-gray-600 text-sm mb-4">Mastermind</p>
+                <p className="text-gray-500 text-xs mb-4">2025</p>
+                <Badge className="bg-green-500 text-white mb-4">Finalizado</Badge>
+                <div>
+                  <a 
+                    href="https://mastermind.ac/curso/historia-de-la-tarjeta-grafica" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-red-500 hover:text-red-600 text-sm"
@@ -535,29 +581,6 @@ export default function Portfolio() {
                 <div>
                   <a 
                     href="https://mastermind.ac/curso/modding-minecraft" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center text-red-500 hover:text-red-600 text-sm"
-                  >
-                    <ExternalLink size={16} className="mr-2" />
-                    Ver curso
-                  </a>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-white border-2 border-gray-100 hover:border-red-500 transition-colors">
-              <CardContent className="p-8 text-center">
-                <div className="flex items-center justify-center w-16 h-16 border-2 border-red-500 rounded-full mx-auto mb-4">
-                  <Monitor className="text-red-500" size={32} />
-                </div>
-                <h3 className="text-black text-lg font-semibold mb-2">Historia de los componentes</h3>
-                <p className="text-gray-600 text-sm mb-4">Mastermind</p>
-                <p className="text-gray-500 text-xs mb-4">2025</p>
-                <Badge className="bg-purple-500 text-white mb-4">En progreso</Badge>
-                <div>
-                  <a 
-                    href="https://mastermind.ac/curso/historia-de-la-tarjeta-grafica" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-red-500 hover:text-red-600 text-sm"
