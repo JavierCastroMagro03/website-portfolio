@@ -520,6 +520,17 @@ export default function Portfolio() {
                     Ver curso
                   </a>
                 </div>
+                <div>
+                  <a 
+                    href="public/certificados/Certificado_eligiendoloscomponentesdetunuevopc.pdf"  // ruta al PDF
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-blue-500 hover:text-blue-600 text-sm"
+                  >
+                    <ExternalLink size={16} className="mr-2" />
+                    Ver certificado
+                  </a>
+                </div>
               </CardContent>
             </Card>
 
