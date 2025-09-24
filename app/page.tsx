@@ -629,6 +629,48 @@ export default function Portfolio() {
             <Card className="bg-white border-2 border-gray-100 hover:border-red-500 transition-colors">
               <CardContent className="p-8 text-center">
                 <div className="flex items-center justify-center w-16 h-16 border-2 border-red-500 rounded-full mx-auto mb-4">
+                  <Monitor className="text-red-500" size={32} />
+                </div>
+                <h3 className="text-black text-lg font-semibold mb-2">Tarjetas gráficas de última generación - innovaciones y retos</h3>
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
+                <div className="flex items-center text-gray-600 text-sm">
+                  <GraduationCap className="w-4 h-4 mr-1 text-gray-600" />
+                  Mastermind
+                </div>
+                <div className="flex items-center text-gray-600 text-xs">
+                  <Calendar className="w-4 h-4 mr-1 text-gray-600" />
+                  2025
+                </div>
+                </div>
+                <Badge className="bg-green-500 text-white mb-4">Finalizado</Badge>
+                <div>
+                  <a 
+                    href="https://mastermind.ac/cursos/gpus-de-ultima-generacion-innovaciones-y-retos"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-red-500 hover:text-red-600 text-sm"
+                  >
+                    <ExternalLink size={16} className="mr-2" />
+                    Ver curso
+                  </a>
+                </div>
+                <div>
+                  <a 
+                    href="/website-portfolio/certificados/Certificado_GPUsdeultimageneracion.pdf"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-red-500 hover:text-red-600 text-sm"
+                  >
+                    <ExternalLink size={16} className="mr-2" />
+                    Certificado
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-white border-2 border-gray-100 hover:border-red-500 transition-colors">
+              <CardContent className="p-8 text-center">
+                <div className="flex items-center justify-center w-16 h-16 border-2 border-red-500 rounded-full mx-auto mb-4">
                   <Gamepad2 className="text-red-500" size={32} />
                 </div>
                 <h3 className="text-black text-lg font-semibold mb-2">Modding en Minecraft</h3>
