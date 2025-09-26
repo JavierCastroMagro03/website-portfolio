@@ -14,17 +14,22 @@ import {
   ExternalLink,
   Calendar,
   GraduationCap,
+  CheckCircle,
+  Clock,
   Star,
+  Gpu,
+  Cpu,
   ChevronDown,
   Palette,
   Code,
   Gamepad2,
   Settings,
   Monitor,
-  Cpu,
-  Gpu,
+  Headphones,
   Video,
+  FileText,
   Users,
+  BarChart3
 } from 'lucide-react'
 
 export default function Portfolio() {
