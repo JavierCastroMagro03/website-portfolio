@@ -14,8 +14,6 @@ import {
   ExternalLink,
   Calendar,
   GraduationCap,
-  CheckCircle,
-  Clock,
   Star,
   ChevronDown,
   Palette,
@@ -23,11 +21,10 @@ import {
   Gamepad2,
   Settings,
   Monitor,
-  Headphones,
+  Cpu,
+  Gpu,
   Video,
-  FileText,
   Users,
-  BarChart3
 } from 'lucide-react'
 
 export default function Portfolio() {
@@ -489,7 +486,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Courses Section (Empty for now) */}
+      {/* Courses Section*/}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
@@ -587,7 +584,7 @@ export default function Portfolio() {
             <Card className="bg-white border-2 border-gray-100 hover:border-red-500 transition-colors">
               <CardContent className="p-8 text-center">
                 <div className="flex items-center justify-center w-16 h-16 border-2 border-red-500 rounded-full mx-auto mb-4">
-                  <Monitor className="text-red-500" size={32} />
+                  <Gpu className="text-red-500" size={32} />
                 </div>
                 <h3 className="text-black text-lg font-semibold mb-2">Historia y funcionamiento de la Tarjeta Gráfica</h3>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
@@ -629,7 +626,7 @@ export default function Portfolio() {
             <Card className="bg-white border-2 border-gray-100 hover:border-red-500 transition-colors">
               <CardContent className="p-8 text-center">
                 <div className="flex items-center justify-center w-16 h-16 border-2 border-red-500 rounded-full mx-auto mb-4">
-                  <Monitor className="text-red-500" size={32} />
+                  <Gpu className="text-red-500" size={32} />
                 </div>
                 <h3 className="text-black text-lg font-semibold mb-2">Tarjetas gráficas de última generación - innovaciones y retos</h3>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
@@ -671,7 +668,7 @@ export default function Portfolio() {
             <Card className="bg-white border-2 border-gray-100 hover:border-red-500 transition-colors">
               <CardContent className="p-8 text-center">
                 <div className="flex items-center justify-center w-16 h-16 border-2 border-red-500 rounded-full mx-auto mb-4">
-                  <Monitor className="text-red-500" size={32} />
+                  <Cpu className="text-red-500" size={32} />
                 </div>
                 <h3 className="text-black text-lg font-semibold mb-2">Historia y Funcionamiento de la CPU</h3>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
