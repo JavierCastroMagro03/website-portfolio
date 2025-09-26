@@ -19,6 +19,7 @@ import {
   Star,
   Gpu,
   Cpu,
+  Wrench,
   ChevronDown,
   Palette,
   Code,
@@ -547,7 +548,7 @@ export default function Portfolio() {
             <Card className="bg-white border-2 border-gray-100 hover:border-red-500 transition-colors">
               <CardContent className="p-8 text-center">
                 <div className="flex items-center justify-center w-16 h-16 border-2 border-red-500 rounded-full mx-auto mb-4">
-                  <Monitor className="text-red-500" size={32} />
+                  <Wrench className="text-red-500" size={32} />
                 </div>
                 <h3 className="text-black text-lg font-semibold mb-2">Montaje de ordenadores</h3>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
