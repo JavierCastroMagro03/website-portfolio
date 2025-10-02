@@ -196,7 +196,7 @@ export default function Portfolio() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-2xl font-semibold text-white mb-6" data-macaly="intro-subtitle">
-                Conoceme
+                Conóceme
               </h3>
               
               <div className="text-gray-300 text-lg leading-relaxed space-y-6">
