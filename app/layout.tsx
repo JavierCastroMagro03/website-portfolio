@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   description: "Estudiante de Diseño y Desarrollo de Videojuegos. En este portfolio presento mis habilidades, herramientas y formación, así como proyectos y cursos que respaldan mi desarrollo. Madrid-España",
   icons: {
     icon: [
-      { url: "/public/img/Foto_Perfil_32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/public/img/Foto_Perfil_64x64.png", sizes: "64x64", type: "image/png" },
+      { url: "/website-portfolio/img/Foto_Perfil_32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/website-portfolio/img/Foto_Perfil_64x64.png", sizes: "64x64", type: "image/png" },
     ],
-    apple: "/public/img/Foto_Perfil_64x64.png", // icono en iOS
+    apple: "/website-portfolio/img/Foto_Perfil_64x64.png", // icono en iOS
   },
 };
 
