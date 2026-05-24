@@ -334,12 +334,14 @@ export default function Portfolio() {
                 <div className="space-y-4">
                   <div className="grid grid-cols-2 gap-4">
                     <div className="space-y-2">
+                      <div><Badge className="bg-black text-white px-3 py-1 text-sm">Unreal Engine</Badge></div>
                       <div><Badge className="bg-black text-white px-3 py-1 text-sm">Unity</Badge></div>
                       <div><Badge className="bg-black text-white px-3 py-1 text-sm">Audacity</Badge></div>
                       <div><Badge className="bg-black text-white px-3 py-1 text-sm">OBS</Badge></div>
                     </div>
                     <div className="space-y-2">
                       <div><Badge className="bg-black text-white px-3 py-1 text-sm">Notion</Badge></div>
+                      <div><Badge className="bg-black text-white px-3 py-1 text-sm">GitHub Projects</Badge></div>
                       <div><Badge className="bg-black text-white px-3 py-1 text-sm">Miro</Badge></div>
                       <div><Badge className="bg-black text-white px-3 py-1 text-sm">Jira</Badge></div>
                     </div>
@@ -390,12 +392,12 @@ export default function Portfolio() {
                         </span>
                       </div>
                       <p className="text-gray-700">
-                        Formación en diseño y desarrollo de videojuegos, cubriendo desde programación y diseño hasta gestión de proyectos y experiencia de usuario. Pendiente de TFG y prácticas.
+                        Formación en diseño y desarrollo de videojuegos, cubriendo desde programación y diseño hasta gestión de proyectos y experiencia de usuario. Pendiente de TFG y prácticas extracurriculares.
                       </p>
                       {/* Nota para móvil */}
                       <div className="flex sm:hidden items-center text-green-500 font-semibold mt-4">
                         <Star size={16} className="mr-1" />
-                        7.71/10
+                        7.8/10
                       </div>
                     </div>
                   </div>
@@ -403,7 +405,7 @@ export default function Portfolio() {
                   {/* Nota solo para escritorio */}
                   <div className="hidden sm:flex items-center text-green-500 font-semibold ml-4">
                     <Star size={16} className="mr-1" />
-                    7.71/10
+                    7.8/10
                   </div>
                 </div>
               </CardContent>
