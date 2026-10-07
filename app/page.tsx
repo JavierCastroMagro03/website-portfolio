@@ -207,7 +207,7 @@ export default function Portfolio() {
                 </p>
                 
                 <p data-macaly="intro-text-2">
-                  Durante el curso 2025-2026 planifico terminar la carrera haciendo las prácticas y el Trabajo de Fin de Grado.
+                  Durante el curso 2026-2027 planifico terminar la carrera haciendo el Trabajo de Fin de Grado.
                 </p>
                 
                 <p data-macaly="intro-text-3">
