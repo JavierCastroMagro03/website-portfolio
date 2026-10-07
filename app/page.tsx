@@ -106,14 +106,14 @@ export default function Portfolio() {
       {/* Hero Section */}
       <section id="inicio" className="min-h-screen flex items-center justify-center bg-white pt-20">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <div className="mb-8">
+          {/*<div className="mb-8">
             <img
               src="https://assets.macaly-user-data.dev/ps1zy954gt1584z8nrr5vdeh/new-chat/t_6euS3zQJ8wQfeLy4IFV/foto-perfil-giy-hub-wither.jpg"
               alt="Javier Castro Magro"
               className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-black"
               data-macaly="profile-image"
             />
-          </div>
+          </div>*/}
           
           <h1 className="text-5xl md:text-6xl font-bold text-black mb-4" data-macaly="hero-name">
             Javier Castro Magro
@@ -233,7 +233,7 @@ export default function Portfolio() {
             </div>
             
             <div className="flex justify-center">
-              <div className="w-80 h-80 rounded-full border-4 border-white overflow-hidden">
+              <div className="w-80 h-80 rounded-3x1 border-4 border-red-500 overflow-hidden">
                 <img
                   src="https://assets.macaly-user-data.dev/ps1zy954gt1584z8nrr5vdeh/new-chat/t_6euS3zQJ8wQfeLy4IFV/foto-perfil-giy-hub-wither.jpg"
                   alt="Javier Castro Magro"
